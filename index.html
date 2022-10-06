@@ -309,6 +309,95 @@
                         </div>
                     </div>
                 </div>
+                <br><br>
+                <div class="trend-entry d-flex">
+                    <table align="center" class="table  table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col"> Speaker</th>
+                        <th scope="col"> Talk</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            Xiuye is a research engineer at Google Research. Her research interests are in computer vision, with a current focus on open-vocabulary recognition. She was an AI resident at Google Research working with Tsung-Yi Lin and Yin Cui. Before that, she received her M.S. in Computer Science from Stanford University in 2020. She was a visiting scholar working with Prof. Yong Jae Lee. She received her B.E. in CS from Zhejiang University in 2017, where she worked with Prof. Deng Cai.
+                        </td>
+                        <td>
+                            <a><em>Open-Vocabulary Detection and Segmentation</em></a>
+                            <br><a>Existing visual recognition models often only work on the closed-set categories available in the training sets. In our recent work, we aim at going beyond this limitation. We design an open-vocabulary object detection method, ViLD and an open-vocabulary image segmentation model, OpenSeg, where the models detect objects or segment images with categories described by arbitrary texts. The two models address open-vocabulary recognition from two different perspectives: ViLD distills the knowledge from a pretrained open-vocabulary classification model (teacher) into a two-stage detector (student); OpenSeg learns the open-vocabulary capacity from weakly-supervised learning on image caption datasets, where the model learns visual-semantic alignments by aligning the words in a caption to predicted masks. Both models learn the localization ability from class-agnostic training on base categories using very different network architectures. ViLD achieves 26.3 APr and 27.6 AP on LVIS and COCO's novel categories respectively. It also directly transfers to other detection datasets without finetuning. Trained on COCO and Localized Narrative, OpenSeg directly transfers to Ade20k (847 and 150 categories), Pascal Context (459 and 59 categories) with superior performance.</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Yu Cheng is a Principal Researcher at Microsoft Research. Before joining Microsoft, he was a Research Staff Member at IBM Research & MIT-IBM Watson AI Lab. He got a Ph.D. degree from Northwestern University in 2015 and a bachelor’s degree from Tsinghua University in 2010. His research covers deep learning in general, with specific interests in model compression and efficiency, deep generative models, and adversarial robustness. Currently, he focuses on productionizing these techniques to solve challenging problems in CV, NLP, and Multimodal. Yu is serving (or, has served) as an area chair for CVPR, NeurIPS, AAAI, IJCAI, ACMMM, WACV, and ECCV.
+                        </td>
+                        <td>
+                            <a><em>Towards data efficient vision-language (VL) models</em></a>
+                            <br><a>Language transformers have shown remarkable performance on natural language understanding tasks. However, these gigantic VL models are hard to deploy for real-world applications due to their impractically huge model size and the requirement for downstream fine-tuning data. In this talk, I will first present FewVLM, a few-shot prompt-based learner on vision-language tasks. FewVLM is trained with both prefix language modeling and masked language modeling and utilizes simple prompts to improve zero/few-shot performance on VQA and image captioning. Then I will introduce Grounded-FewVLM, a new version that learns object grounding and localization in pre-training and can adapt to diverse grounding tasks. The models have been evaluated on various zero-/few-shot VL tasks and the results show that they consistently surpass the state-of-the-art few-shot methods.</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Yinfei Yang is a research manager at Apple AI/ML working on general visual intelligence. Previously he was a staff research scientist at Google research working on various NLP and Computer Vision problems. Before Google, He worked at Redfin and Amazon as research engineers for machine learning and computer vision problems. Prior to that,  He was a graduate student in computer science at UPenn. He received his master's in computer science. His research focuses on image and text representation learning for retrieval and transferring tasks. He is generally interested in problems in Computer Vision, Natural Language Processing, or combined.
+                        </td>
+                        <td>
+                            <a><em>Learning Visual and Vision-Language Model With Noisy Image Text Pairs</em></a>
+                            <br><a>Pre-training has become a key tool in state-of-the-art computer vision and language machine learning models. The benefits of very large-scale supervised pre-training were first demonstrated by By Bert in the language community, and BiT and ViT models in the vision community. However, popular vision-language datasets like Conceptual Captions, MSCOCO usually involve a non-trivial data collection and cleaning process, which limits the size of datasets and hence limits the large scale training of image-text models. In recent work, researchers leverage the noisy dataset of over billions of image alt-text pairs mined from the Web as pre-training. The resulting models have shown incredible performance on various visual and vision language tasks, including image-text retrieval, captioning, visual question answering et.c.  In addition, researchers also show that the visual representations learned from noise text supervision achieves the state-of-the-art level results on various vision tasks including image classification, semantic segmentation, object detection etc.</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Leonid Karlinsky
+                        </td>
+                        <td>
+                            <a><em>Different facets of limited supervision – on coarse- / weakly- / cross-domain- / and self- supervised learning</em></a>
+                            <br><a>Limited Supervision can assume many interesting and practical forms beyond (the very popular) classical few-shot learning. In this talk I would touch upon four of our recent works covering a range of alternative limited supervision tasks. We will considered learning with weak supervision (incomplete or noisy labeling, such as image level class labels for training a few-shot detector or image level captions for training a zero-shot grounding model); coarse-to-fine few-shot learning – where pre-training annotations are coarse (e.g. broad vehicle types such as car, truck, bus, etc) while the target novel classes for few-shot learning are fine-grained (e.g. specific models of cars); self-supervised cross-domain learning – where we want to semantically align learned representations between different domains without any labels in any of the domains; and self-supervised classification – discovering novel classes without any supervision.</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Sharon Yixuan Li is an Assistant Professor in the Department of Computer Sciences at the University of Wisconsin Madison. Her broad research interests are in deep learning and machine learning. Her research focuses on learning and inference under distributional shifts and open-world machine learning. Previously she was a postdoc research fellow in the Computer Science department at Stanford AI Lab. She completed her Ph.D. from Cornell University in 2017, where she was advised by John E. Hopcroft. She led the organization of the ICML workshop on Uncertainty and Robustness in Deep Learning in 2019 and 2020. She is the recipient of several awards, including the Facebook Research Award, Amazon Research Award, and was named Forbes 30Under30 in Science.
+                        </td>
+                        <td>
+                            <a><em>How to Handle Data Shifts? Challenges, Research Progress and Path Forward</em></a>
+                            <br><a>The real world is open and full of unknowns, presenting significant challenges for machine learning systems that must reliably handle diverse, and sometimes anomalous inputs. Out-of-distribution (OOD) uncertainty arises when a machine learning model sees a test-time input that differs from its training data, and thus should not be predicted by the model. As machine learning is used for more safety-critical domains, the ability to handle out-of-distribution data is central in building open-world learning systems. In this talk, I will talk about challenges, research progress, and future opportunities in detecting OOD samples for safe and reliable predictions in an open world.</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Bharath Hariharan is an assistant professor of Computer Science at Cornell University, where he works on all things computer vision, but focusing on problems where data challenges prevail. He is a recipient of the NSF CAREER award as well as the PAMI Young Researcher award.
+                        </td>
+                        <td>
+                            <a><em>When life gives you lemons: Making lemonade from limited labels</em></a>
+                            <br><a>Many research directions have been proposed for dealing with the limited availability of labeled data in many domains, including zero-shot learning, few-shot learning, semi-supervised learning and self-supervised learning. However, I argue that in spite of the volume of research in these paradigms, existing approaches discard vital domain knowledge that can prove useful in learning.</a> 
+                            <br>
+                            <br> <a>I will show two case studies where thinking about where the data comes from in the problem domain leads to substantial improvements in accuracy. The first case study will look at the domain of self-driving, and will show how leveraging domain knowledge can allow systems to automatically discover objects and train detectors with no labels at all. The second study will look at zero-shot learning, where digging deeper into the provenance of class descriptions yields surprising and useful insight.</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ishan Misra is a Research Scientist at FAIR, Meta AI where he works on computer vision. His interests are primarily in learning visual representations with limited supervision - using self-supervised, and weakly supervised learning. For his work in self-supervised learning, Ishan was features in MIT Tech Review’s list of 35 innovators under 35 compiled globally across all areas of technology. You can hear about his work at length on Lex Fridman’s podcast.
+                        </td>
+                        <td>
+                            <a><em>General purpose visual recognition across modalities with limited supervision</em></a>
+                            <br><a>Modern computer vision models are good at specialized tasks. Given the right architecture, right supervision, supervised learning can yield great specialist models. However, specialist models also have severe limitations — they can only do what they are trained for and require copious amounts of pristine supervision for it. In this talk, I’ll focus on two limitations: specialist models cannot work on tasks beyond what they saw training labels for, or on new types of visual data. I’ll present our recent efforts that design better architectures, training paradigms and loss functions to address these issues.</a> 
+                            <br>
+                            <br><a>Our first work, called Omnivore, presents a single model that can operate on images, videos, and single-view 3D data. Omnivore leads to shared representations across visual modalities, without using paired input data. Omnivore can also be trained in a self-supervised manner. I’ll conclude the talk with Detic, a simple way to train large-vocabulary detectors using image-level labs which leads to a 20,000+ class detector.</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Dr. Holger Caeser is is an Assistant Professor at the Intelligent Vehicles group of TU Delft in the Netherlands. Holger's research interests are in the area of Autonomous Vehicle perception and prediction, with a particular focus on scalability of learning and annotation approaches. Previously Holger was a Principal Research Scientist at an autonomous vehicle company called Motional (formerly nuTonomy). There he started 3 teams with 20+ members that focused on Data Annotation, Autolabeling and Data Mining. Holger also developed the influential autonomous driving datasets nuScenes and nuPlan and contributed to the commonly used PointPillars baseline for 3d object detection from lidar data. He received his PhD in Computer Vision from the University of Edinburgh in Scotland under Prof. Dr. Vittorio Ferrari and studied in Germany and Switzerland (KIT Karlsruhe, EPF Lausanne, ETH Zurich).
+                        </td>
+                        <td>
+                            <a><em>Autonomous vehicles from imperfect and limited labels</em></a>
+                            <br><a>The past decade has seen enormous progress in autonomous vehicle performance due to new sensors, large scale datasets and ever deeper models. Yet this progress is fueled by human annotators manually labeling every object in painstaking detail. Newly released datasets now focus on more specific subproblems rather than fully labelling ever larger amounts of data. In this talk I will talk about how we developed an Offline Perception system to autolabel a 250x times larger dataset called nuPlan. This dataset serves as the world's first real-world ML planning benchmark. By combining real-world data with a closed-loop simulation framework, we get the best of both world's - realism and reactivity. I will discuss the role of imperfect (perception) data in planning and prediction and highlight the importance of up-to-date maps. I conclude that it is essential to detect these imperfections, quantify their impact and develop robust models that are able to learn from this data.</a> 
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
             </div>
 
             <br><br>
